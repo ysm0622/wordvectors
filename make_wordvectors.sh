@@ -10,7 +10,7 @@ vocab_size=20000 # the maximum vocabulary size
 num_negative=5 # the int for negative specifies how many “noise words” should be drawn
 ############## END #####################
 
-echo "step 0. Make `data` directory and move there.`
+echo "step 0. Make `data` directory and move there."
 mkdir data; cd data
 
 echo "step 1. Download the stored wikipedia file to your disk."
